@@ -6,8 +6,8 @@ $(document).ready(function () {
         wrapperClass: "slider-slider-list",
         slideClass: "speaker-slider-item",
         navigation: {
-            nextEl: '.next-slide',
-            prevEl: '.prev-slide'
+            nextEl: 'next-slide',
+            prevEl: 'prev-slide'
         },
         pagination: {
             type: 'bullets',
