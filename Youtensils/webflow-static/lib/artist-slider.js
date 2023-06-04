@@ -5,10 +5,11 @@ $(document).ready(function () {
     var slider_wrapper = new Swiper("speaker-slider", {
         wrapperClass: "slider-slider-list",
         slideClass: "speaker-slider-item",
-        navigation: {
-            nextEl: 'next-slide',
-            prevEl: 'prev-slide'
-        },
+        navigation: true,
+        // navigation: {
+        //     nextEl: 'next-slide',
+        //     prevEl: 'prev-slide'
+        // },
         pagination: {
             type: 'bullets',
             el: '.pagination',
@@ -68,4 +69,6 @@ $(document).ready(function () {
             },
         },
     });
+
+
 });
